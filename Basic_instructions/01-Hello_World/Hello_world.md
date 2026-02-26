@@ -1,3 +1,5 @@
+## C# Console Application : display our first message
+
 ### Goal
 Display a simple message in the console.
 
