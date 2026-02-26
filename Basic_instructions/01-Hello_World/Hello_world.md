@@ -1,11 +1,10 @@
-## Goal
+### Goal
 Display a simple message in the console.
 
-## Instructions
+### Instructions
 Use the `Console.WriteLine` method to print the text.
 
-
-## Example
+### Example
 ```C#
 Console.WriteLine("Hello World !");
 ```
