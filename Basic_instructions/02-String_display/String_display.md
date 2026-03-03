@@ -1,7 +1,24 @@
 ## C# Console Application : different ways to display a string
 
 ### Goal
-Display simple messages in the console using different way.
+Reproduce the following messages :
+```OUTPUT
+Path to project 1 is : C:/Project/Project1
+Path to project 2 is :
+        C:/Project/Project
+```
+
+```OUTPUT
+Path to projectName is : C:/Project/projectName
+```
+
+```OUTPUT
+View English output :
+        C:/Project/projectName/newProject
+
+Посмотреть русский вывод :
+        C:/Project/projectName/ru-RU/newProject
+```
 
 ### Instructions
 Use the `Console.WriteLine` and `Console.Write` methods to print the text.

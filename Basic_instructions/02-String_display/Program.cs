@@ -1,13 +1,13 @@
 ﻿Console.WriteLine("\n----- display strings using character escape -----\n");
 
-Console.Write("Path to project 1 is : c:/Project/Project1\n");
+Console.Write("Path to project 1 is : C:/Project/Project1\n");
 Console.WriteLine(@"Path to project 2 is :
-        c:/Project/Project2");
+        C:/Project/Project2");
 
 Console.WriteLine("\n\n----- display a string using string concatenation -----\n");
 
 string projectName = "projectName";
-string path = "c:/Project/" + projectName;
+string path = "C:/Project/" + projectName;
 Console.WriteLine("Path to " + projectName + " is : " + path);
 
 Console.WriteLine("\n\n----- display strings using string interpolation -----\n");
