@@ -1,15 +1,16 @@
 ## C# Console Application : implement a temperature converter from Fahrenheit degrees to Celsius degrees
 
 ### Goal
-Hard coding a temperature in Fahrenheit degrees.
-Calculate and display the conversion to Celsius degrees.
-The result in Celsius degree is displayed in rounded decimal form, with a precision of 2 digit after dot.
+The goal of this exercise is to write a simple C# console application that :
+- stores a temperature expressed in Fahrenheit (hard-coded),
+- converts it into Celsius,
+- displays the result rounded to 2 decimal places.
 
 ### Instructions
 - Fahrenheit degrees are chosen are integers (int type).
 - Celsius degrees are decimals (decimal type).
-- Operations with integers give integers.
-- To explicite cast on a decimal celsius, use :
+- Integer division returns an integer result, unless at least one operand is a decimal.
+- To explicitly cast a decimal to an integer, use :
 ```C#
 (int) celsius;
 ```
